@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffe8d6;
+    font-family: "Outfit";
+    
+}
+
+.receita {
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 100px 150px;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+
+}
+
+main img {
+    min-width: 100%;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    /* width: 1800px; */
+}
+
+.receita .titulo-receita {
+    padding-top: 20px;
+    font-family: "Young Serif";
+    font-size: 24px;
+}
+
+.receita .texto-receita {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.2;
+    color: #808080;
+    font-family: "Outfit Medium";
+}
+
+.receita .tempo-preparo {
+    background-color: rgba(255, 200, 221, 0.2);
+    margin: 30px 0px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.receita .tempo-preparo h3 {
+    padding-left: 20px;
+    font-family: "Outfit Normal";
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #d46992  ;
+}
+
+.receita .tempo-preparo .texto-preparo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 16px;
+    text-align: justify;
+    color: #808080;
+}
+
+.receita li{
+    /* text-indent: 15px; */
+    padding-left: 15px;
+}
+
+.receita .tempo-preparo .texto-preparo li::marker{
+    color: #d46992;
+}
+
+
+.receita .titulo-corrido {
+    font-family: "Young Serif";
+    font-size: 22px;
+    color: #9e6f28;
+}
+.receita .texto {
+    line-height: 2;
+    padding-left: 20px;
+    font-family: "Outfit Normal";
+    color: #808080;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.receita .texto li::marker {
+    color: #9e6f28;
+    font-weight: bolder;
+}
+
+.receita .instrucoes ol li {
+    width: 100%;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.tabela p {
+    font-family: "Outfit";
+    font-size: 16px;
+    text-align: justify;
+    color: #808080;
+}
+
+.tabela table {
+    color: #808080;
+    width: 100%;
+}
+
+.tabela tr {
+    display: flex;
+    gap: 25%;
+    border-bottom: 1px solid #b6b4b4;
+    justify-content: left;
+    line-height: 2;
+    
+}
+
+.tabela tr td {
+    width: 20%;
+}
+
+.tabela table th {
+    text-indent: 50px;
+    color: #9e6f28;
+    
+}
+
+.tabela .gordura {
+    border-bottom: none;
+}
